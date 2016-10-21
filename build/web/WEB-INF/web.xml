@@ -17,4 +17,8 @@
         <servlet-name>HalloweenServlet</servlet-name>
         <url-pattern>/goElon</url-pattern>
     </servlet-mapping>
+		<welcome-file-list>  
+        <welcome-file>goElon</welcome-file>
+    </welcome-file-list>
+
 </web-app>

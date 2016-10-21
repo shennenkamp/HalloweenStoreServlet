@@ -47,7 +47,8 @@
         </section>
         <section>
             <h3>Please enter the following information</h3>
-            <form action="join" method="post">
+						<p><i>${message}</i></p>
+            <form action="subscribe.html" method="post">
                 <p>
                     <label>First name:</label>
                     <input name="firstName" type="text" value="${user.firstName}" required autofocus>
