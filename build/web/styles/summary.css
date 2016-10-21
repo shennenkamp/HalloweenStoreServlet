@@ -1,0 +1,184 @@
+* {
+  font-family: Arial;
+}
+
+h1 {
+  font-size:200%
+}
+
+h2{
+  margin: 0;
+  padding-top: 5px;
+}
+
+h3 {
+  font-size:155%;
+}
+.pumpkin {
+  float: left;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.indent {
+  text-indent: 40px;
+}
+#sidebar a {
+  color: orange;
+  font-weight: bold;
+}
+#sidebar a:hover {
+  color: green;
+}
+#sidebar li {
+  margin: 0 0 5px 0;
+}
+footer {
+  background-color: orange;
+  background: linear-gradient(45deg, black, orange, orange, white);
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: 2px;
+  clear: left;
+  font-size: 75%;
+  text-align: center;
+}
+
+body {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+  box-shadow: 10px 10px 61px 10px rgba(0,0,0,0.87);
+  margin: 0 auto;
+  width: 800px;
+}
+
+header {
+  background-color: orange;
+  background: linear-gradient(45deg, white, orange, orange, black); 
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+html {
+  background-image: url(../images/bats.gif);
+  background-repeat: repeat;
+  padding: 0;
+}
+
+.padTop {
+  margin-top: 0;
+  padding-top: 15px;
+}
+
+.padBot {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+.cat{
+  padding-right: 400px;
+}
+
+.hide{
+  display: none;
+}
+
+#menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
+
+#menu ul li {
+  float: left;
+}
+
+#menu ul li a {
+	background-color: black;
+	color: white;
+  display: block;
+	font-weight: bold;
+  padding-top: 10px;
+	padding-bottom: 10px;
+  text-decoration: none;
+	text-align: center;
+	width: 160px;
+}
+
+#menu a:hover {
+  background-color: gray;
+}
+
+#menu ul li a.current {
+	color:orange;
+}
+
+#menu2 ul {
+	background-color: white;
+	float: left;
+	list-style-type: none;
+	margin-bottom: 125px;
+	margin-left: 10px;
+	padding-right: 30px;
+	padding-left: 0;
+}
+
+#menu2 ul li a {
+	background-color: orange;
+	border-style: solid;
+	color: black;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	width: 160px;
+}
+
+.center{
+	text-align: center;
+}
+
+tbody th, .left {
+	text-align: left;
+	padding-right: 100px;
+}
+
+tbody td a {
+	padding-right: 80px;
+	color: black;
+}
+
+figcaption {
+	font-weight: bold;
+	font-size: 150%;
+	padding-top: 50px;
+}
+
+figure {
+	margin-top: 0;
+}
+
+table {
+	border: none;
+	border-collapse: collapse;
+}
+
+tbody tr td:nth-of-type(2){
+	text-align: right;
+	background-color: #F5DEB3;
+	padding-left: 20px;
+}
+
+.price {
+	text-align: right;
+	background-color: #F5DEB3;
+}
+
+th[rowspan] {
+  vertical-align: top;
+  text-align: left;
+}
+
+

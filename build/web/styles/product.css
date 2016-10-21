@@ -1,0 +1,180 @@
+* {
+  font-family: Arial;
+}
+
+h1 {
+  font-size:200%
+}
+
+h2{
+  margin: 0;
+  padding-top: 5px;
+}
+
+h3 {
+  font-size:155%;
+	margin-top: 0px;
+}
+.pumpkin {
+  float: left;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.indent {
+  text-indent: 40px;
+}
+#sidebar a {
+  color: orange;
+  font-weight: bold;
+}
+#sidebar a:hover {
+  color: green;
+}
+#sidebar li {
+  margin: 0 0 5px 0;
+}
+footer {
+  background-color: orange;
+  background: linear-gradient(45deg, black, orange, orange, white);
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: 2px;
+  clear: left;
+  font-size: 75%;
+  text-align: center;
+}
+
+body {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+  box-shadow: 10px 10px 61px 10px rgba(0,0,0,0.87);
+  margin: 0 auto;
+  width: 800px;
+}
+
+header {
+  background-color: orange;
+  background: linear-gradient(45deg, white, orange, orange, black); 
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+html {
+  background-image: url(../images/bats.gif);
+  background-repeat: repeat;
+  padding: 0;
+}
+
+.padTop {
+  margin-top: 0;
+  padding-top: 15px;
+}
+
+.padBot {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+.hide{
+  display: none;
+}
+
+#menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
+
+#menu ul li {
+  float: left;
+}
+
+#menu ul li a {
+	background-color: black;
+	color: white;
+  display: block;
+	font-weight: bold;
+  padding-top: 10px;
+	padding-bottom: 10px;
+  text-decoration: none;
+	text-align: center;
+	width: 160px;
+}
+
+#menu a:hover {
+  background-color: gray;
+}
+
+#menu ul li a.current {
+	color:orange;
+}
+
+#menu2 ul {
+	background-color: white;
+	float: left;
+	list-style-type: none;
+	margin-bottom: 350px;
+	margin-left: 10px;
+	padding-right: 30px;
+	padding-left: 0;
+}
+
+#menu2 ul li a {
+	background-color: orange;
+	border-style: solid;
+	color: black;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	width: 160px;
+}
+
+.cat {
+	float: left;
+	padding-right: 15px;
+}
+
+.catText {
+	display: block;
+}
+
+#menu3 {
+	background-color: #F5DEB3;
+	float: right;
+	padding: 10px;
+	width: 180px;
+}
+
+#menu3 figure a {
+	color: black;
+}
+
+#menu3 figure a:hover {
+	color: green;
+}
+
+#menu3 li {
+	list-style-type: none;
+}
+
+#menu3 ul {
+	margin: 0;
+	padding: 0;
+}
+
+#menu3 figure {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#menu3 h4 {
+	margin-top: 2px;
+}
+
+#menu {
+	float: top;
+}
